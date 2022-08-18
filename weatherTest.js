@@ -1,4 +1,12 @@
-let = lon, lat;
+let target = document.querySelector(".title").addEventListener("click", doSomething);
+
+function doSomething() {
+    target.innerText = "hellooo";
+    alert("Heyheeeey");
+}
+
+
+/*let = lon, lat;
 let temperature = document.querySelector('.temp');
 let summary = doucment.querySelector('.summary');
 let loc = document.querySelector('.location');
@@ -24,4 +32,5 @@ window.addEventListener("load", () => {
             temperature.textContent = Math.Florr(data.main.temp - kelvin)})
     }
 })
+*/
 

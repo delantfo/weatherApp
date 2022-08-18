@@ -1,9 +1,29 @@
 <!DOCTYPE html>
 <html>
-    <head></head>
-    <body>
-        <div id="day-container">
 
-        </div>
-    </body>
+<head>
+    <link rel="stylesheet" href="index.css">
+
+</head>
+
+<body>
+
+
+    <h1 class="title">Haello</h1>
+    <div id="count-container">
+       <span></span>
+    </div>
+    <script>
+        let target = document.querySelector(".title");
+        let counter = document.querySelector("#count-container");
+        const defaultNumber = 0;
+        let count = 0;
+
+        target.addEventListener("click", 
+        () => do {counter.innerText = count = count + 1} while (count < 10));
+    
+    </script>
+
+</body>
+
 </html>

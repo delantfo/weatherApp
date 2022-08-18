@@ -1,8 +1,18 @@
-h1 {
+h1, .title {
     font-size: 5vh;
+    margin: auto 0;
+    text-align: center;
+    padding: 10px;
+    color: #0000ff;
 }
 
-.day-container {
+.title:hover {
+    cursor: pointer;
+}
+
+
+#count-container {
     margin: auto;
     padding: 10px;
+    text-align: center;
 }
